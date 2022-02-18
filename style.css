@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+.navbar{
+display: flex;
+justify-content: center;
+height: 70px;
+align-items: flex-start;
+
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: #041562;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    font-size: 1.1rem;
+}
+
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #93ffd8;
+}
+
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+/*navbar end*/
+/*home section begin*/
