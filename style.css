@@ -39,3 +39,11 @@ align-items: flex-start;
 }
 /*navbar end*/
 /*home section begin*/
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
