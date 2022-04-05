@@ -7,10 +7,56 @@
 /*navbar*/
 .navbar {
     ul{
-      margin: 0;  
-      padding: 0;
+      list-style-type: none;
+      padding: 15px;
+      margin: 5px;  
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    li{
+      display: inline;
+      color: darkblue;
+
+    }
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .navbar a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .nav a.active {
+      background-color: #04AA6D;
+      color: white;
     }
   
    
   }
+  /*navbar end*/
+
+    .home{
+      display: flex;
+      flex-direction: column;
+      height: 650px;
+      justify-content: center;
+      align-items: center;
+
+      
+       }
+  
 
